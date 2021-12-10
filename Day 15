@@ -1,0 +1,22 @@
+Finding single missing element in an array
+
+#We can calculate sum of all the elements an array and then we will see what is the difference and that missing numbers will be the missing element
+To calculate sum n(n+1)/2
+
+##Sorted (natural numbers)
+
+int n;
+int arr[n];
+cin>>n;
+for(int i=0;i<n;i++)
+{
+cin>>arr[i];
+}
+int sum=0;
+for(int i=0;i<n;i++)
+{
+sum=sum=arr[i];
+}
+int s=n*(n-1)/2;
+int ans=s-sum;
+cout<< ans;
